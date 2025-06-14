@@ -23,6 +23,8 @@ A clean and modular Point of Sale (POS) backend built using **Laravel**, followi
 
 
  - cd orderMangmentUseStripe
+
+ - 
 2- composer install
 
    
