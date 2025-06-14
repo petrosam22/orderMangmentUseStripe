@@ -20,22 +20,16 @@ A clean and modular Point of Sale (POS) backend built using **Laravel**, followi
 - 
 ## 📦 Installation Guide
 -git clone https://github.com/petrosam22/orderMangmentUseStripe.git
- -  cd orderMangmentUseStripe
-2-Install Dependencies
- composer install
-3-Set Environment Variables
-cp .env.example .env
-php artisan key:generate
-4-Configure .env File
+ - cd orderMangmentUseStripe
+2- composer install
+3-cp .env.example .env
+4-php artisan key:generate
+5-Configure .env File
 Update these variables:
-DB_DATABASE=your_database
-DB_USERNAME=your_db_user
-DB_PASSWORD=your_db_password
-STRIPE_KEY=your_stripe_publishable_key
-STRIPE_SECRET=your_stripe_secret_key
- 5-Run Migrations
- php artisan migrate
-6-Link Storage (for image/video uploads)
+DB_DATABASE,DB_USERNAME,DB_PASSWORD,STRIPE_KEY,STRIPE_SECRET,
+ 6-php artisan migrate
+ 
+7-Link Storage (for image/video uploads)
 php artisan storage:link
 Import Postman Collection
 Select postman_collection.json from the root directory of this project
