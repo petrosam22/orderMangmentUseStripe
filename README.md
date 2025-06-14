@@ -13,7 +13,7 @@ A clean and modular Point of Sale (POS) backend built using **Laravel**, followi
 ## 🚀 Features
 - 🔐 Admin-authenticated product management
 - 🖼️ Image upload with compression
-- 🎬 Video upload (FFmpeg-ready)
+- 🎬 Video upload 
 - 💳 Stripe payment integration for product purchases
 - 🧱 Clean code: Service, Repository, Interface layers
 - 🧾 Postman collection included
